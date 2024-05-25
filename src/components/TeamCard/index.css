@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.app {
+  margin: 15px;
+  background-color: #ffffff33;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 300px;
+}
+.heading {
+  color: white;
+}
+.team-logo {
+  width: 150px;
+  height: 150px;
+}

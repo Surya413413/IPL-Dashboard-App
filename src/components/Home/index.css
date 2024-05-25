@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.ipl-log-style {
+  width: 70px;
+  height: 120px;
+}
+.ipl-dashboard-heading {
+  color: white;
+}
+.img-ipl-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.loader-data-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

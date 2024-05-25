@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.recent-teams-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1e293b;
+  color: white;
+  font-family: Bree Serif;
+  width: 45%;
+  border-radius: 10px;
+  height: 280px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.recent-team-img {
+  width: 40px;
+}
+.recent-team-name {
+  font-size: 16px;
+}
+.result {
+  font-size: 12px;
+}
+.won-status {
+  color: greenyellow;
+}
+.lost-status {
+  color: rgb(237, 86, 86);
+}
+@media (min-width: 768px) {
+  .recent-teams-card {
+    width: 250px;
+    height: 300px;
+  }
+  .recent-team-img {
+    width: 30%;
+  }
+}
