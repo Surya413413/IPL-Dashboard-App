@@ -2,6 +2,7 @@
 import './index.css'
 import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+import {Link} from 'react-router-dom'
 import {Component} from 'react'
 import LatestMatch from '../LatestMatch'
 import MatchCard from '../MatchCard'
@@ -22,6 +23,7 @@ class TeamMatches extends Component {
     const {id} = params
     const response = await fetch(`https://apis.ccbp.in/ipl/${id}`)
     const fetchedData = await response.json()
+    console.log(fetchedData)
     const updatedData = {
       teamBannerUrl: fetchedData.team_banner_url,
       latestMatchDetails: {
@@ -74,6 +76,13 @@ class TeamMatches extends Component {
         {recentMatches.map(eachMatch => (
           <MatchCard matchData={eachMatch} key={eachMatch.id} />
         ))}
+        <div>
+          <Link to="/">
+            <button type="button" className="back-button">
+              back
+            </button>
+          </Link>
+        </div>
       </ul>
     )
   }

@@ -38,3 +38,30 @@
     width: 30%;
   }
 }
+.name-color {
+  color: white;
+}
+.match-card {
+  list-style-type: none;
+  flex-wrap: wrap;
+  background-color: #1e293b;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.back-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}

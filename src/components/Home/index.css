@@ -2,7 +2,7 @@
 .app-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
 }
 .ipl-log-style {
   width: 70px;
